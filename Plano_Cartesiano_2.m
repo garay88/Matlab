@@ -7,14 +7,15 @@ hold on;
 grid on;             %Hasta aqui
 
 
-x=-10:0.5:10;          %Los valores que va a tomar x1
+x=-10:0.5:10;        %Los valores que va a tomar x1
                      
 y=-8/7*x+22/14;      %Ecuacion lineal de y1
 
-plot(x,y);           %Esto hace que grafique la recta l1
+plot(x,y,'g');       %Esto hace que grafique la recta l1, la tercera
+                     %es el color
 
 
-x=-10:0.5:10;          %Los valores que va a tomar x2
+x=-10:0.5:10;        %Los valores que va a tomar x2
                      
 y=7/8*x+2;           %Ecuacion lineal y2
 
