@@ -6,9 +6,16 @@ hold on;
     plot(b,a);
 grid on;             %Hasta aqui
 
-x=-5:1:5;            %Los valores que va a tomar x, Ejm= x=-5:0.01:5
-                     %valor inicial, saltos=epsilon, valor final
-                     
-y=x.^2+3;            %Ecuacion cuadratica
 
-plot(x,y);           %Esto hace que grafique
+x=-10:0.5:10;          %Los valores que va a tomar x1
+                     
+y=-8/7*x+22/14;      %Ecuacion lineal de y1
+
+plot(x,y);           %Esto hace que grafique la recta l1
+
+
+x=-10:0.5:10;          %Los valores que va a tomar x2
+                     
+y=7/8*x+2;           %Ecuacion lineal y2
+
+plot(x,y);           %Esto hace que grafique la recta l2
